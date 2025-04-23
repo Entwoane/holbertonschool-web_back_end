@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+"""
+Module for running multiple asynchronous task_wait_random
+coroutines concurrently.
+"""
+
 import asyncio
 from typing import List
 
