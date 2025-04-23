@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 This module provides utilities for working with sequences.
 Includes a function to pair each element of an iterable with its length.

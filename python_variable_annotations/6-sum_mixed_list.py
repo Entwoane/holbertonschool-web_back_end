@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 This module provides a function to calculate the sum of a list
 containing both integers and floating-point numbers.
