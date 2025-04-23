@@ -1,10 +1,11 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 Asynchronous coroutine module for generating random delays.
 """
 
+import random
+import asyncio
 
-import random, asyncio
 
 async def wait_random(max_delay: int = 10) -> float:
     """
