@@ -21,9 +21,7 @@ async def async_generator() -> AsyncIterator[float]:
     Yields:
         float: A random floating-point number between 0 and 10.
     """
-    result = []
     for _ in range(10):
         i = random.uniform(0, 10)
         await asyncio.sleep(1)
         yield i
-        result.append(i)
