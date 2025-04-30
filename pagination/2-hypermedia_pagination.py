@@ -72,7 +72,7 @@ class Server:
         dict: A dictionary containing the page size, current page, data,
             next page number, previous page number, and total number of pages.
         """
-        data = self.get_data(page, page_size)
+        data = self.get_page(page, page_size)
         total_items = len(self.dataset())
         total_pages = math.ceil(total_items / page_size)
         next_page = page + 1 if page < total_pages else None
