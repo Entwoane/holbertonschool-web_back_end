@@ -7,12 +7,12 @@ random floating-point numbers between 0 and 10, with a 1-second delay
 between each yield.
 """
 
-from typing import AsyncIterator
+from typing import Generator
 import random
 import asyncio
 
 
-async def async_generator() -> AsyncIterator[float]:
+async def async_generator() -> Generator[float, None, None]:
     """
     Asynchronously yield 10 random floats between 0 and 10.
 
